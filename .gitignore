@@ -4,3 +4,26 @@ __pycache__/
 out
 website/
 docs-minimind/
+
+# Local datasets and downloaded artifacts
+dataset/
+wheels/
+
+# Training outputs and checkpoints
+out/
+outputs/
+checkpoints/
+logs/
+runs/
+wandb/
+swanlog/
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+
+# Python/cache artifacts
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/

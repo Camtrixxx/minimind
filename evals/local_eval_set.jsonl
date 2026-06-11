@@ -1,0 +1,15 @@
+{"id":"fact_sky_blue","category":"factual","prompt":"为什么天空是蓝色的？请用不超过120字解释。","must_contain":["散射","蓝光","波长"],"avoid":["大气层由大气层","气体分子是由气体分子"],"max_chars":160}
+{"id":"fact_gravity","category":"factual","prompt":"万有引力是谁提出的？请给出人物和大致年份。","must_contain":["牛顿","1687"],"avoid":["爱因斯坦"],"max_chars":120}
+{"id":"fact_yangtze","category":"factual","prompt":"你知道长江吗？请用两句话说明它是什么、流向哪里。","must_contain":["中国","河","东海"],"avoid":["珠穆朗玛峰","山峰"],"max_chars":180}
+{"id":"fact_panda","category":"factual","prompt":"大熊猫主要吃什么？请简短回答。","must_contain":["竹"],"avoid":["海产品","鱼类","鸟类"],"max_chars":80}
+{"id":"fact_seawater","category":"factual","prompt":"海水为什么是咸的？请简短说明主要来源。","must_contain":["盐","矿物","河流"],"avoid":["光散射","阳光反射"],"max_chars":160}
+{"id":"fact_photosynthesis","category":"factual","prompt":"解释光合作用的基本过程，不超过150字。","must_contain":["光能","二氧化碳","水","有机物","氧气"],"avoid":["分解反应","PET"],"max_chars":180}
+{"id":"code_fibonacci","category":"code","prompt":"请用Python写一个函数 fibonacci(n)，返回前 n 个斐波那契数，n=0 返回空列表。只输出代码。","function":"fibonacci","tests":[{"args":[0],"expected":[]},{"args":[1],"expected":[0]},{"args":[2],"expected":[0,1]},{"args":[6],"expected":[0,1,1,2,3,5]}],"max_chars":1000}
+{"id":"code_quicksort","category":"code","prompt":"请用Python写一个 quick_sort(arr) 函数，返回升序排序后的新列表。只输出代码。","function":"quick_sort","tests":[{"args":[[]],"expected":[]},{"args":[[3,1,2]],"expected":[1,2,3]},{"args":[[3,6,8,10,1,2,1]],"expected":[1,1,2,3,6,8,10]}],"max_chars":1000}
+{"id":"summary_nezha","category":"summary","prompt":"截至2025年2月9日14时31分，电影《哪吒之魔童闹海》累计票房（含预售）突破78.09亿元，超过《星球大战：天行者崛起》的票房成绩，成为首部进入全球票房榜前40的亚洲电影。这一成就不仅标志着中国电影在国际市场的突破，也展示了中国动画电影的巨大潜力和市场吸引力。请总结成20字以内摘要。","must_contain":["哪吒","票房"],"avoid":["墨西哥"],"max_chars":30}
+{"id":"summary_ml","category":"summary","prompt":"机器学习通过算法从数据中学习规律，并用这些规律进行预测、分类、推荐或决策，常用于搜索、风控、图像识别和自然语言处理。请用15字以内总结。","must_contain":["机器学习"],"avoid":[],"max_chars":20}
+{"id":"instruction_three_points","category":"instruction","prompt":"给出雨天出门的3条建议。只列3条，每条不超过15字。","must_contain":["雨"],"avoid":["如果天气允许，我会选择出门"],"max_chars":80}
+{"id":"instruction_no_repeat","category":"instruction","prompt":"比较猫和狗作为宠物的优缺点。要求分成“猫”和“狗”两部分，不要重复同一句。","must_contain":["猫","狗"],"avoid":["喜欢和主人玩耍，喜欢和主人玩耍"],"max_chars":320}
+{"id":"reason_math","category":"reasoning","prompt":"小明有12个苹果，送给同学5个，又买了8个，现在有几个？只给答案和一句解释。","must_contain":["15"],"avoid":[],"max_chars":80}
+{"id":"reason_logic","category":"reasoning","prompt":"如果所有A都是B，所有B都是C，那么所有A都是C吗？请简短回答。","must_contain":["是"],"avoid":["不一定"],"max_chars":80}
+{"id":"qa_identity","category":"identity","prompt":"请介绍一下自己。","must_contain":["AI"],"avoid":["神秘","花园"],"max_chars":180}
